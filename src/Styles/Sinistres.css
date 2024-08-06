@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.sinsitre{
+    border:  2px solid rgb(0, 187, 255);
+}

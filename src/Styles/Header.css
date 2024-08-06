@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+:root {
+    --mainColor:#29335C;
+    --mainColorLight:#5767aa;
+    --secondaryColor:#DB2839;
+    --textColor:#eee;
+    --SignAndLoginColor:rgb(14, 181, 14);
+
+}
+
+
+.Header{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    padding: 0 1rem;
+   
+    color: var(--textColor);
+    }
+nav a {
+    margin: 0 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--secondaryColor);
+}
+.Header .nav-btn {
+   
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--secondaryColor);
+    visibility:hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+.AppLogo{
+    color: var(--textColor);
+    text-decoration: none;
+    border: #DB2839 solid 2px ;
+    height: 80px;
+    width: 70px ;
+    background-image: url("../Assets/Images/logo12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.AppLogo img {
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    border: 4px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+.oko{
+   border: 3px solid green;
+   align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.oko a{
+    color: var( --SignAndLoginColor);
+    text-decoration: none;
+}
+@media  only screen and (max-width:1024px) {
+    .Header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    .Header nav {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-direction: column;
+        background-color: var(--mainColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+
+    }
+    .Header .responsive_nav{
+        transform: none;
+
+    }
+    .nav-btn .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+    }
+    nav a {
+        font-size: 1.8rem;
+    }
+    .oko{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .signAndLog{
+        border: 3px solid red ;
+        width: 100%;
+    }
+}

@@ -1,0 +1,7 @@
+*{
+    padding-inline-start: 0px;
+    box-sizing: border-box;
+}
+.Footer{
+    border: 8px solid rgb(68, 187, 76);
+}
