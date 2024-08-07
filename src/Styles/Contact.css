@@ -3,20 +3,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
+    height: 80vh;
+   
 
 
 }
 .form{
-    border: 4px solid blue;
-    height: 75vh;
+ 
+    height: 65vh;
     width: 50%;
     z-index: 1;
-   background-color: wheat;
+   background-color: white;
 
 }
 .form-top{
-    border: 9px solid blue;
+  
     
   display: flex;
   
@@ -26,7 +27,7 @@
     width: 60%;
 }
 .form-bottom{
-    border: 6px solid green;
+ 
     background-color: white;
     height: 20vh;
     
@@ -39,7 +40,7 @@
     justify-content: space-around;
 }
 .inscription-buttom{
-    border: 3px solid red;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,4 +51,48 @@
   color: white;
   box-shadow: -2px 1px   0px  black;
   cursor: pointer;
+}
+form {
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center ;
+    height: 40vh;
+
+}
+form input {
+    padding: 15px ;
+    border-radius: 10px ;
+    
+    border:2px solid red;
+   
+}
+form input:hover{
+    border-color: red;
+}
+.incription-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+.forget-pasword{
+    background-color: white;
+}
+.forget-pasword a {
+    background-color: white;
+    text-decoration: none;
+}
+
+.inscription-buttom a {
+ 
+    text-decoration: none;
+}
+.form-bottom{
+   
+    width: 90%;
+    padding-left: 60px;
 }

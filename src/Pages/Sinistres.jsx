@@ -1,9 +1,12 @@
 import React from 'react';
 import "../Styles/Sinistres.css"
+import Layout from "../Components/Layout/Layout"
 const Sinistres = () => {
     return (
         <div className='sinsitre'>
-            <h1>je suis la page Sinistre</h1>
+           <Layout>
+            
+           </Layout>
         </div>
     );
 }
