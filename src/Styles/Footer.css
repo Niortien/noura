@@ -1,47 +1,49 @@
 *{
     padding-inline-start: 0px;
     box-sizing: border-box;
+    
 }
 .Footer{
-    border: 8px solid rgb(68, 187, 76);
+   
     display: flex;
     justify-content: space-around;
    padding-bottom: 30px ;
-   background-color: black;
+   background-color: #384259;
 }
 .footer-elements{
-    border: 2px solid red;
+    
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color:#384259;
    
     
 }
 .footer-element-down{
     display: flex;
-    border: 3px solid rgba(221, 255, 0, 0.34);
+    
     flex-direction: column;
     justify-content: space-around;
     margin-top: 15px;
-    background-color: blue;
+    background-color:#384259;
 }
 .footer-element-up{
  color: white;
- background-color: black;
+  background-color:#384259;;
 }
 .footer-element-down a {
     text-decoration: none;
-    color: rgb(68, 187, 76);
+    color: rgb(68, 183, 187); 
+          ;
     
 }
 .alone{
-    border: 3px solid black;
+    border: 3px solid #384259;
     justify-content: center;
   
 
 }
 .alone a{
-    color: rgb(68, 187, 76);
+    color: rgb(68, 183, 187);
     text-decoration: none;
 }
 
@@ -50,6 +52,7 @@
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    
 }
 .socia{
     width: 15%;
@@ -57,4 +60,12 @@
 }
 .social-media-box{
     cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color:#384259;
+}
+.social-media-box img{
+    width: 100%;
+    height: 100%;
+
 }

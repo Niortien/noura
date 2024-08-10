@@ -15,10 +15,15 @@ const Header = () => {
            <Link to="/" className='AppLogo'>
            </Link>
             <nav  className='navbar' ref={navRef}>
+              <div className="nav-left">
               <Link to="/">Home</Link>
               <Link to="/sinistre">Sinistres</Link>
               <Link to="/contact">Contact</Link>
-             
+              </div>
+             <div className="nav-right">
+             <Link to="/login">Connexion</Link>
+             <Link to="/contact">Inscription</Link>
+             </div>
         <button className='nav-btn nav-close-btn'>
 <FaTimes   onClick={showNavBar} /> 
         </button>
