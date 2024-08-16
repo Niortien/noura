@@ -4,7 +4,7 @@
     
 }
 .Footer{
-   
+   height: 200px;
     display: flex;
     justify-content: space-around;
    padding-bottom: 30px ;
@@ -48,14 +48,14 @@
 }
 
 .social-media{
-    border:  9px solid blue;
+
     flex-direction: row;
     display: flex;
     justify-content: space-between;
     
 }
 .socia{
-    width: 15%;
+    width: 20%;
     
 }
 .social-media-box{

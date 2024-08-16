@@ -15,7 +15,7 @@ const Footer = () => {
             {/*la première colonne du footer */}
 
             <div className="footer-elements">
-                <div className="footer-element-up">Lien utiles</div>
+                <div className="footer-element-up">LIENS UTILES</div>
                 <div className="footer-element-down">
                     <Link to="#">Home</Link>
                     <Link to="#">Sinistre</Link>

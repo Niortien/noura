@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from "react";
+import Comment from '../Components/UI/Comment';
    
     
 
@@ -66,6 +67,8 @@ import {useEffect} from "react";
                     
                     
                 </div>
+                 {/*  le Composant des commentaires */}
+                <Comment/>
                </div>
             </Layout>
             
