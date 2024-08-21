@@ -21,8 +21,8 @@ const Header = () => {
               <Link to="/contact">Contact</Link>
               </div>
              <div className="nav-right">
-             <Link to="/login">Connexion</Link>
-             <Link to="/contact">Inscription</Link>
+             <Link to="/login" className='login'>Connexion</Link>
+             <Link to="/contact" className='sign'>Inscri</Link>
              </div>
         <button className='nav-btn nav-close-btn'>
 <FaTimes   onClick={showNavBar} /> 

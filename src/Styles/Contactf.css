@@ -1,0 +1,47 @@
+.contact-content{
+   
+    height: 90vh;
+    background-color:#FF9800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-element{
+ 
+    background-color: white;
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 30px ;
+    flex-direction: column;
+    border-radius: 40px ;
+
+}
+.send-contact{
+    border: 2px solid black;
+    width: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 40px ;
+    background-color: rgb(236, 74, 74);
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 20px ;
+
+}
+.formu{
+     
+     display: flex;
+    margin-top: 60px ;
+     align-items: end;
+     padding: 20px 0px 20px 0px ;
+
+
+}
+.contact-element h1{
+    margin-bottom: 30px ;
+    text-align: center;
+}

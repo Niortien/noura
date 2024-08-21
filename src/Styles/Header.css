@@ -13,7 +13,10 @@
     --GeneralColor:#FF9800;
 
 }
-
+.login{
+    border: 3px solid red;
+    width: 20%;
+}
 
 .Header{
     
